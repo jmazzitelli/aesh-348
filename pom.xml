@@ -8,9 +8,9 @@
   <packaging>jar</packaging>
 
   <properties>
-    <aesh.version>0.66.5</aesh.version>
-    <!--
     <aesh.version>0.66.7-SNAPSHOT</aesh.version>
+    <!--
+    <aesh.version>0.66.5</aesh.version>
     -->
   </properties>
 
