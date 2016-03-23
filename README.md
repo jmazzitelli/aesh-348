@@ -19,7 +19,7 @@ Note if you run with --myoption at the end, it doesn't throw an exception but st
 
 ````
 $ java -jar target/aesh-test-1.jar --abc foo --myoption
-hasOption(myoption)=true
+hasOption(abc)=true
 abc=foo
 hasOption(myoption)=false
 myoption=<not set>
@@ -31,7 +31,7 @@ But if myoption is specified first, it works (with 0.66.7-SNAPSHOT, not with any
 
 ````
 $ java -jar target/aesh-test-1.jar --myoption --abc foo
-hasOption(myoption)=true
+hasOption(abc)=true
 abc=foo
 hasOption(myoption)=true
 myoption=
