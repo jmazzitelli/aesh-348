@@ -3,8 +3,7 @@
 This replicates AESH-348: https://issues.jboss.org/browse/AESH-348
 
 1. Clone the repo and go to its directory:
-   $ git clone git@github.com:jmazzitelli/aesh-348.git
-   $ cd aesh-348
+   $ git clone git@github.com:jmazzitelli/aesh-348.git && cd aesh-348
 2. Build it:
    $ mvn clean install -Daesh.version=0.66.5
 3. See the 2 test errors for the problems
