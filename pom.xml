@@ -7,12 +7,24 @@
   <version>1</version>
   <packaging>jar</packaging>
 
+  <properties>
+    <aesh.version>0.66.5</aesh.version>
+    <!--
+    <aesh.version>0.67.0-SNAPSHOT</aesh.version>
+    -->
+  </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.jboss.aesh</groupId>
       <artifactId>aesh</artifactId>
-      <version>0.66.5</version>
+      <version>${aesh.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+      <version>4.12</version>
     </dependency>
   </dependencies>
 
