@@ -26,3 +26,13 @@ myoption=<not set>
 ````
 
 Notice "hasOption" returns false, even though I did pass in --myoption. (see the unit test failure)
+
+But if myoption is specified first, it works (with 0.66.7-SNAPSHOT, not with anything earlier):
+
+````
+$ java -jar target/aesh-test-1.jar --myoption --abc foo
+hasOption(myoption)=true
+abc=foo
+hasOption(myoption)=true
+myoption=
+````
